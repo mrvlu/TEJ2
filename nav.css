@@ -1,0 +1,109 @@
+/***************************
+This is a Cascading Style Sheet (CSS), which describes rules for styling HTML markup (and this is a comment, which you can delete).
+
+To use this file, link it to your markup by placing a <link> in the <head> of your HTML file:
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+
+replacing "style.css" with the name of this CSS file.
+
+Learn more about CSS at
+
+https://developer.mozilla.org/en-US/docs/Web/Guide/CSS
+***************************/
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #cdb4db;
+}
+
+h1{
+  color:#00129e;
+  font-size:35px;
+
+  text-align:center;
+  padding:15px;
+}
+
+body{
+  color:#081726;
+  font-size:15px;
+  font-family: "Arial", Verdana, serif;
+
+}
+
+h2{
+  color:green;
+}
+
+
+
+
+#header {
+  height:200px;
+  background-color:#6cd2e0;
+  
+  border-width:1px;
+  border-style:solid;
+
+}
+
+#leftBar {
+  float: left;  
+  width: 25%; 
+  border:0;
+  margin-top:0;  
+  padding-top:0;
+
+  background: gray; 
+
+}
+
+#content {
+  float:left;
+
+  width:100%;
+  background-color: #7196d0;
+  height:1000px;
+
+
+}
+
+/** Nav code begins here **/
+#Nav{
+  text-align:center;
+  background-color:#E1E6FA;
+
+}
+
+/** This will modify only the unordered lists inside the div Nav **/
+#Nav ul { 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline-block;
+
+}
+
+#Nav li {
+  float: left;
+}
+
+#Nav a:link, a:visited {
+  display: block;
+  width: 120px;
+  font-weight: bold;
+  color: rgb(34, 31, 71);
+  background-color: rgb(84, 91, 97);
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+  text-transform: uppercase; 
+}
+
+#Nav a:hover, a:active {
+  background-color: rgb(77, 152, 223);
+}/**end of nav stuff**/
+
